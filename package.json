@@ -1,18 +1,25 @@
 {
   "name": "@pipeworx/mcp-mapbox",
   "version": "0.1.0",
-  "description": "Mapbox geocode, directions, matrix, isochrones, map-matching, tilequery, static URL.",
+  "description": "Mapbox MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-mapbox": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "mapbox"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-mapbox"
+    "url": "git+https://github.com/pipeworx-io/mcp-mapbox.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
   },
   "devDependencies": {
     "typescript": "^5.7.0"
