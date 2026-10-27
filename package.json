@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-mapbox",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Mapbox MCP.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-ac2cfe47f6e203b7353f619649a397d890704f6eb887443a194c56a5bb494228",
-    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
+    "sourceHash": "v1-956aed8dc58d6fee2dab989018afd3ec7a13d05ea6175efaa9bc5a72ad3c00f3",
+    "sourceCommit": "33741fe6d9ba71856e73fa683c73572d1ddf2e93"
   }
 }
